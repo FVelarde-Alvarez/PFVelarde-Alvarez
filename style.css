@@ -1,0 +1,166 @@
+body{
+    background-image: url(./img/fondo_1_amarillo.gif)
+}
+
+header{
+    background-image: url(./img/fondo_logo.jpg);
+}
+
+#logo{
+    width: 10%;
+}
+
+nav{
+    background-image: url(./img/fondo_2_negro_gris.jpg);
+}
+
+.menu_inicial{
+    background-image: url(./img/fondo_2_negro_gris.jpg);
+}
+
+.menu_inicial nav ul li{
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+
+.boton_menu{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-color: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#conoce_Mario_section{
+    float: left;
+    width: 50%;
+    height: 400px;
+    /*background-color: white;*/
+    border-radius: 5%;
+}
+
+#mario_inicial_img{
+    float: left;
+    width: 50%;
+}
+
+h1{
+    font-size: 350%;
+    padding: 5%;
+    font-family: fantasy;
+}
+
+p{
+    text-align: justify;
+    padding: 3%;
+    font-size: xx-large;
+}
+
+.creacion_box{
+    background-color: white;
+    text-align: center;
+    max-width: 70%;
+    border-radius: 5%;
+}
+
+h2{
+    font-size: 300%;
+    font-family: fantasy;
+    padding-left:10%;
+    text-align: center;
+}
+
+#creacion_img{
+    width: 50%;
+}
+
+#mario_ata nav li{
+    list-style: none;
+    float: left;
+    padding: 3%;
+}
+
+.mariobros1{
+    background-image: url(./img/fondo_atravesdeltiempo.jpg);
+    width: 70%;
+}
+
+#mariobros1_img{
+    padding: 5%;
+    /*falta centrar*/
+    width: 20%;
+}
+
+.articulo1{
+    font-size: large;
+    font-family: fantasy;
+    padding: 5%;
+}
+
+#video1{
+    align-content: end;
+    padding-bottom: 5%;
+}
+
+.articulo2_marioata{
+    width: 70%;
+    font-size: large;
+    font-family: monospace;
+}
+
+.resumen{
+    font-size: large;
+    width: 70%;
+}
+
+.soundtrack{
+    width: 50%;
+}
+
+.noticias{
+    background-color: lightgray;
+    border-radius: 1%;
+    width: 40%;
+}
+
+.noticias_img{
+    width: 90%;
+}
+
+.articulo1_noticias{
+    width: 90%;
+    font-size: medium;
+}
+
+#articulo_mariokart8{
+    background-image: url(.img/fondo_atravesdeltiempo.jpg);
+}
+footer{
+    background-image: url(./img/fondo_logo.jpg);
+    color: white;
+    font-size: larger;
+}
+
+#instagram{
+    width: 5%;
+    padding: 5px;
+    border-color: white;
+}
+
+#facebook{
+    width: 5%;
+    padding: 5px;
+    border-color: white;
+}
+
+#youtube{
+    width: 5%;
+    padding: 5px;
+}
