@@ -12,21 +12,19 @@ header{
 
 nav{
     background-image: url(./img/fondo_2_negro_gris.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu_inicial{
-    background-image: url(./img/fondo_2_negro_gris.jpg);
-}
-
-.menu_inicial nav ul li{
-    float: left;
-    list-style: none;
-    margin: 20px;
+.img-menu{
+    display: flex;
+    align-items: center;
 }
 
 .boton_menu{
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 10px;
     background-color: black;
     font-size: large;
     font-weight: bold;
@@ -34,33 +32,63 @@ nav{
     border-color: white;
 }
 
+.boton_menu:hover{
+    background-color: red;
+}
+
 .clearfix{
     clear: both;
 }
 
-#conoce_Mario_section{
-    float: left;
-    width: 50%;
-    height: 400px;
-    /*background-color: white;*/
-    border-radius: 5%;
+.container.container_1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100% 100%;
+    align-items: center;
+}
+
+/*.frase_1{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 0%;
+    margin: 0%;
+    text-align: justify;
+}
+
+.frase_2{
+    color: white;
+    font-size: 10rem;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    text-align: justify;
+}*/
+
+h1{
+    padding: 5%;
+    font-family: fantasy;
+}
+
+
+.btn_conoce_mario{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border-color: lightgray;
+    font-size: large;
+    font-display: none;
 }
 
 #mario_inicial_img{
     float: left;
-    width: 50%;
-}
-
-h1{
-    font-size: 350%;
-    padding: 5%;
-    font-family: fantasy;
+    width: 100%;
 }
 
 p{
     text-align: justify;
     padding: 3%;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .creacion_box{
@@ -68,6 +96,7 @@ p{
     text-align: center;
     max-width: 70%;
     border-radius: 5%;
+    padding: 5%;
 }
 
 h2{
@@ -78,7 +107,7 @@ h2{
 }
 
 #creacion_img{
-    width: 50%;
+    width: 100%;
 }
 
 #mario_ata nav li{
@@ -146,21 +175,34 @@ footer{
     background-image: url(./img/fondo_logo.jpg);
     color: white;
     font-size: larger;
+    text-align: center;
 }
 
-#instagram{
-    width: 5%;
+.figure-caption{
+    font-size: 100%;
+    padding:0%;
+    text-align: center;
+    color: white;
+}
+.figure.facebook{
+    width: 10%;
     padding: 5px;
     border-color: white;
 }
 
-#facebook{
-    width: 5%;
+.figure.instagram{
+    width: 10%;
     padding: 5px;
     border-color: white;
 }
 
-#youtube{
-    width: 5%;
+.figure.youtube{
+    width: 10%;
     padding: 5px;
+}
+
+.txt-small, .txt-tiny{
+    font-size: x-small;
+    padding: 0%;
+    text-align: center;
 }
