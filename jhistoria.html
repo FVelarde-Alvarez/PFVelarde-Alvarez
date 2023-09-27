@@ -55,67 +55,226 @@
 
     </header> <br> <br>
 
-    <section class="container container_historia justify-content-center">
-
-        <div class="container_historia">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h1>Conoce a Mario</h1>
-                    <p>Conoce a Mario, el héroe con bigotes del Reino Champiñón. Tal vez lo conoces como un plomero, ¡pero también es un corredor de autos, una estrella de los deportes, un héroe con capa y más! Usando sus increíbles habilidades, trabaja al lado de sus amigos para mantener a salvo el Reino Champiñón.</p>
-                </div>
-                <div class="col-12 col-md-6"> 
-                    <img id="mario_inicial_img" src="./img/mario_bros.jpg" alt=""> <br>
-                </div>
+    <center>
+        <div class="container container_historia justify-content-center">
+          <div class="row">
+            <div class="col-12 col-md-6 justify-content-center">
+              <h1 class="display-1">Conoce a Mario</h1>
+              <p class="lead"> <strong>Conoce a Mario, el héroe con bigotes del Reino Champiñón. Tal vez lo conoces como un plomero, ¡pero también es un corredor de autos, una estrella de los deportes, un héroe con capa y más! Usando sus increíbles habilidades, trabaja al lado de sus amigos para mantener a salvo el Reino Champiñón.</strong></p>
             </div>
+            <div class="col-12 col-md-6"> 
+              <img id="mario_historia_img" src="./img/mario_bros.jpg" alt="300"> <br>
+            </div>
+          </div>
         </div>
+      </center>
 
         <br>
-    </section>
 
     <div class="clearfix"></div>
 
     <div class="container creacion_box">
         <div>
             <h2>Creación</h2>
-            <p>Conoce a Mario, el héroe con bigotes del Reino Champiñón. Tal vez lo conoces como un plomero, ¡pero también es un corredor de autos, una estrella de los deportes, un héroe con capa y más! Usando sus increíbles habilidades, trabaja al lado de sus amigos para mantener a salvo el Reino Champiñón.</p>
+            <p class="lead"> Conoce a Mario, el héroe con bigotes del Reino Champiñón. Tal vez lo conoces como un plomero, ¡pero también es un corredor de autos, una estrella de los deportes, un héroe con capa y más! Usando sus increíbles habilidades, trabaja al lado de sus amigos para mantener a salvo el Reino Champiñón.</p>
         </div>
         <div>
             <img id="mario_inicial_img" src="./img/creador.jpg" alt=""> <br>
         </div>
     </div>
 
-    <div class="clearfix"></div>
+    <div class="clearfix"></div><br><br>
+
 
     <div>
         <h2>Mario a través de los años</h2>
 
-        <video src=""></video>
-        <iframe width="700" height="400" src="https://www.youtube.com/embed/44WLMSX4AGQ?si=nu5vlT6Hmqv1E5vJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+        <div class="container container_video">
+            <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/44WLMSX4AGQ?si=d_HzvigZsIeafC2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+        </div>
         
         <br>
     </div>
 
+    <br><br><br>
     <div id="mario_ata">
-        <nav>
-            <center>
-                <li><a href="./marioata.html"><img src="./img/mariobros1.jpg" alt=""></a><br>
-                    1985                    
-                </li>
+        <h2>Historia</h2> <br><br>
+        
+        <div class="container container_marioATA">
+            <div class="row">
+                <div class="col-sm-0 col-md-2">
+                  <img class="tunel img-fluid" src="./img/tunel izq.png" alt="">
+                </div>
                 
-                <li><img src="./img/mariobros2.jpg" alt=""><br>
-                    1988                    
-                </li>
+                <div class="col-sm-12 col-md-8"> 
+                    
+                    <div class="container Carrusel">
+                        <div class="itemCarrusel" id="itemCarrusel1">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel1">
+                                <img class="imagen_ata" src="./img/mariobros1.jpg" alt=""><br>
+                                <span>1985</span>
+                            </div>
+
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel10">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel2">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel2">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel2">
+                                <img class="imagen_ata"src="./img/mariobros2.jpg" alt=""><br>
+                                <span>1988</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel1">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel3">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel3">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel3">
+                                <img class="imagen_ata" src="./img/mariobros3.jpg" alt=""><br>
+                                <span>1989</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel2">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel4">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel4">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel4">
+                                <img class="imagen_ata" src="./img/mariobros4.jpg" alt=""><br>
+                                <span>1990</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel3">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel5">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel5">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel5">
+                                <img class="imagen_ata" src="./img/mariobros5.jpg" alt=""><br>
+                                <span>1991</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel4">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel6">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel6">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel6">
+                                <img class="imagen_ata" src="./img/mariobros6.jpg" alt=""><br>
+                                <span>1992</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel5">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel7">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel7">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel7">
+                                <img class="imagen_ata" src="./img/mariobros7.jpg" alt=""><br>
+                                <span>1996</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel6">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel8">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel8">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel8">
+                                <img class="imagen_ata" src="./img/mariobros8.jpg" alt=""><br>
+                                <span>2002</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel7">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel9">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel9">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel9">
+                                <img class="imagen_ata" src="./img/mariobros9.jpg" alt=""><br>
+                                <span>2006</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel8">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel10">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="itemCarrusel" id="itemCarrusel10">
+                            <div class="tarjeta_Carrusel" id="tarjeta_Carrusel10">
+                                <img class="imagen_ata" src="./img/mariobros10.jpg" alt=""><br>
+                                <span>2007</span>
+                            </div>
+                            <div class="flechas_Carrusel">
+                                <a class="a_carrusel" href="#itemCarrusel9">
+                                    <i><</i>
+                                </a>
+                                <a class="a_carrusel" href="#itemCarrusel1">
+                                    <i>></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-0 col-md-2"> 
+                    <img class="tunel img-fluid" src="./img/tunel derecha.png" alt="">
+                </div>
+              </div>
                 
-                <!--
-                <img src="./img/mariobros3.jpg" alt=""> 1989<br>
-                <img src="./img/mariobros4.jpg" alt=""> 1990
-                <img src="./img/mariobros5.jpg" alt=""> 1991
-                <img src="./img/mariobros6.jpg" alt=""> 1992<br>
-                <img src="./img/mariobros7.jpg" alt=""> 1996
-                <img src="./img/mariobros8.jpg" alt=""> 2002
-                <img src="./img/mariobros9.jpg" alt=""> 2006<br>
-                <img src="./img/mariobros10.jpg" alt=""> 2007
-                <img src="./img/mariobros11.jpg" alt=""> 2009
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+               
+                <!-- <img src="./img/mariobros11.jpg" alt=""> 2009
                 <img src="./img/mariobros12.jpg" alt=""> 2010<br>
                 <img src="./img/mariobros13.jpg" alt=""> 2011
                 <img src="./img/mariobros14.jpg" alt=""> 2012
@@ -127,12 +286,10 @@
                 <img src="./img/mariobros20.jpg" alt=""> 2019
                 <img src="./img/mariobros21.jpg" alt=""> 2019<br>
                 <img src="./img/mariobros22.jpg" alt=""> 2020
-                <img src="./img/mariobros23.jpg" alt=""> 2021      -->
-            </center>
-        </nav> 
-    </div>
+                <img src="./img/mariobros23.jpg" alt=""> 2021   -->
+    
 
-    <div class="clearfix"></div>
+    <div class="clearfix"></div> -->
 
     <footer>
 
@@ -162,40 +319,6 @@
 
         <br><br>
                       
-<!--     
-    <div id="mario_ata" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/mariobros1.jpg" class="d-block w-100" alt="" width="2%">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/mariobros2.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/mariobros3.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/mariobros4.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/mariobros5.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/mariobros6.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/mariobros7.jpg" class="d-block w-100" alt="">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
 
     </footer>
 
