@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+
+    // header inicial
+    .container_logoNintendo{
+        background-color: $backgroud-color-header;
+        #logoNintendo{
+            @include sizes($width-logo,null);
+        }
+    }
+
+    //header navbar
+    nav{
+        @include flex(null,center,center);
+        @include sizes (100%,80px);
+
+        .container-fluid{
+        background-color: $backgroud-color-nav;
+
+            .mariohead{
+                @include flex (null,space-between,center);
+                @include sizes (auto,70px);
+                    &:hover{
+                    transform: scale(1.2);
+                }
+            }
+            .boton_menu{
+                @include btn(15px, white, 10px, black, large, bold, white );
+                &:hover{
+                    background-color: #fe0016;
+                }
+            } 
+        }
+    }
+}
+
+.clearfix{
+    clear: both;
+}
+
+body{
+    background-color: $backgroud-color-body;/*falta agregar imagen fondo*/
+    padding: 90px 20px 0;
+    
+    .container{
+        .container1{
+        @include grid(auto auto, 100% 100%, center);
+        }
+    }
+    .mario_index{
+        @include sizes(null,100%)
+    }
+
+    h1{
+        @include titulo($font-family-principal, $font-principal, bold);
+    }
+
+    .nombrePrincipal{
+        @include titulo($font-family-mario, $font-title, null)
+    }
+
+    .btn_conoce_mario{
+        @include btn(20px, lightgray, 10px, white, large, bold, black);
+        font-display: none;
+    }
+}
+
+footer{
+    background-color: $backgroud-color-header;
+    @include footer(white,null,center,null);
+    
+    .figure-caption{
+        @include footer(white,larger,center,0%);
+    }
+    .figure{
+        @include figure(80px,5px,white);
+    }
+    h6{
+        font-size: small;
+    }
+    .p_tiny{
+        font-size: xx-small;
+    }
+}
+

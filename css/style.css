@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; }
+  header .container_logoNintendo {
+    background-color: #fe0016; }
+    header .container_logoNintendo #logoNintendo {
+      width: 10%; }
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px; }
+    header nav .container-fluid {
+      background-color: black; }
+      header nav .container-fluid .mariohead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 70px; }
+        header nav .container-fluid .mariohead:hover {
+          transform: scale(1.2); }
+      header nav .container-fluid .boton_menu {
+        border-radius: 15px;
+        border-color: white;
+        padding: 10px;
+        background-color: black;
+        font-size: large;
+        font-weight: bold;
+        color: white; }
+        header nav .container-fluid .boton_menu:hover {
+          background-color: #fe0016; }
+
+.clearfix {
+  clear: both; }
+
+body {
+  background-color: yellow;
+  /*falta agregar imagen fondo*/
+  padding: 90px 20px 0; }
+  body .container .container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100% 100%;
+    align-items: center; }
+  body .mario_index {
+    height: 100%; }
+  body h1 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold; }
+  body .nombrePrincipal {
+    font-family: fantasy;
+    font-size: 7rem; }
+  body .btn_conoce_mario {
+    border-radius: 20px;
+    border-color: lightgray;
+    padding: 10px;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    font-display: none; }
+
+footer {
+  background-color: #fe0016;
+  color: white;
+  align-items: center; }
+  footer .figure-caption {
+    color: white;
+    font-size: larger;
+    align-items: center;
+    padding: 0%; }
+  footer .figure {
+    width: 80px;
+    padding: 5px;
+    border-color: white; }
+  footer h6 {
+    font-size: small; }
+  footer .p_tiny {
+    font-size: xx-small; }
+
+.container_historia {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100% 100%;
+  align-items: center; }
+
+.creacion_box {
+  background-color: white;
+  text-align: center;
+  max-width: 70%;
+  border-radius: 5%;
+  padding: 5%; }
+  .creacion_box .Creacion_titulo {
+    font-family: fantasy;
+    font-size: 300%; }
+  .creacion_box .creador_img {
+    width: 100%; }
+
+.container_video .titulo_video {
+  font-family: fantasy;
+  font-size: 300%; }
+
+.container_video .video {
+  width: 80%; }
+
+.container_marioATA {
+  width: 100%;
+  height: 200px; }
+  .container_marioATA .row_carrusel .tunel {
+    height: 200px;
+    justify-items: center; }

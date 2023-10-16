@@ -1,0 +1,42 @@
+.container_historia{
+    @include grid(auto auto, 100% 100%, center);
+}
+//falta declarar el p lead
+
+.creacion_box{
+    background-color: white;
+    text-align: center;
+    max-width: 70%;
+    border-radius: 5%;
+    padding: 5%;
+
+    .Creacion_titulo{
+        @include titulo($font-family-mario,300%,null);
+    }
+
+    .creador_img{
+        @include sizes(100%,null);
+    }
+}
+
+.container_video{
+    .titulo_video{
+        @include titulo($font-family-mario,300%,null);
+    }
+    .video{
+        width: 80%;
+    }
+}
+
+.container_marioATA{
+    @include sizes(100%,200px);
+    //backgroun img
+    .row_carrusel{
+        .tunel{
+            @include sizes(null,200px);
+            justify-items: center;
+        }
+    }
+}
+
+

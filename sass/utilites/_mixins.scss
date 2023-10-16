@@ -1,0 +1,47 @@
+@mixin flex($flex-direction, $justify, $align){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid($grid-columns,$grid-rows,$align){
+    display: grid;
+    grid-template-columns: $grid-columns;
+    grid-template-rows: $grid-rows;
+    align-items: $align;
+}
+
+@mixin titulo ($font-family-principal, $font-principal, $font-weight){
+    font-family: $font-family-principal;
+    font-size: $font-principal;
+    font-weight: $font-weight;
+}
+
+@mixin btn($borderradius-btn, $bordercolor-btn, $padding-btn, $backgroundcolor-btn, $fontsize-btn, $fontweight-btn, $color-btn){
+    border-radius:$borderradius-btn;
+    border-color: $bordercolor-btn;
+    padding: $padding-btn;
+    background-color: $backgroundcolor-btn;
+    font-size: $fontsize-btn;
+    font-weight: $fontweight-btn;
+    color: $color-btn;
+}
+
+@mixin sizes($width,$height){
+    width: $width;
+    height: $height;
+}
+
+@mixin footer($color,$font-size,$align,$padding){
+    color:$color;
+    font-size: $font-size;
+    align-items: $align;
+    padding: $padding;
+}
+
+@mixin figure($width,$padding,$border-color){
+    width: $width;
+    padding: $padding;
+    border-color: $border-color;
+}
