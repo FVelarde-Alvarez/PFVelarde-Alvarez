@@ -1,13 +1,23 @@
 {
+<<<<<<< HEAD
   "name": "preentrega2velarde-alvarez---copia",
+=======
+  "name": "preentrega2velarde-alvarez",
+>>>>>>> e2928dfe822ba6c3e5cf740c5944123206151407
   "version": "1.0.0",
   "description": "��#\u0000 \u0000P\u0000r\u0000e\u0000E\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u00002\u0000V\u0000e\u0000l\u0000a\u0000r\u0000d\u0000e\u0000-\u0000A\u0000l\u0000v\u0000a\u0000r\u0000e\u0000z\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-sass": "node-sass --include-path scss sass/style.scss css/style.css",
     "watch-sass": "nodemon -e scss -x  \"npm run build-sass\""
   },
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+>>>>>>> e2928dfe822ba6c3e5cf740c5944123206151407
   "author": "",
   "license": "ISC",
   "devDependencies": {
