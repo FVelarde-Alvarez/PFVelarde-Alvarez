@@ -1,0 +1,4 @@
+.btn_mantenimiento{
+    @include btn(20px, lightgray, 10px, white, large, bold, black);
+        font-display: none;
+}

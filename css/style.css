@@ -118,3 +118,13 @@ footer {
   max-width: 960px;
   width: 100%;
   margin: 20px auto; }
+
+.btn_mantenimiento {
+  border-radius: 20px;
+  border-color: lightgray;
+  padding: 10px;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  font-display: none; }
