@@ -1,5 +1,6 @@
 # ignore files in the directory node_modules
 node_modules/
+node_modules
 
 # ignore style.css outside css folder
 style_old.css
