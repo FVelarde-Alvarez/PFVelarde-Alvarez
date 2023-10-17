@@ -29,14 +29,11 @@
 }
 
 .container_marioATA{
-    @include sizes(100%,200px);
-    //backgroun img
-    .row_carrusel{
-        .tunel{
-            @include sizes(null,200px);
-            justify-items: center;
-        }
-    }
+    padding: 5px;
+    max-width: 960px;
+    width: 100%;
+    margin: 20px auto;
 }
+
 
 

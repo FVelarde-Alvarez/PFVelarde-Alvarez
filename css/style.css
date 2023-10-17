@@ -114,8 +114,7 @@ footer {
   width: 80%; }
 
 .container_marioATA {
+  padding: 5px;
+  max-width: 960px;
   width: 100%;
-  height: 200px; }
-  .container_marioATA .row_carrusel .tunel {
-    height: 200px;
-    justify-items: center; }
+  margin: 20px auto; }
