@@ -6,6 +6,7 @@
 
 header{
     position: fixed;
+    z-index: 2;
     width: 100%;
     top: 0;
     left:0;
@@ -76,6 +77,7 @@ body{
 
 footer{
     background-color: $backgroud-color-header;
+    width: 100%;
     @include footer(white,null,center,null);
     
     .figure-caption{

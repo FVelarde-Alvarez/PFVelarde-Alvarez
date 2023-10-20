@@ -4,11 +4,7 @@
 //falta declarar el p lead
 
 .creacion_box{
-    background-color: white;
-    text-align: center;
-    max-width: 70%;
-    border-radius: 5%;
-    padding: 5%;
+    @include article ($backgroud-color-creacionbox, 70%, center, 5%,5%);
 
     .Creacion_titulo{
         @include titulo($font-family-mario,300%,null);
@@ -19,20 +15,17 @@
     }
 }
 
-.container_video{
-    .titulo_video{
+.container_historiaVideo{
+    .titulo_historiaVideo{
         @include titulo($font-family-mario,300%,null);
     }
-    .video{
+    .historiaVideo{
         width: 80%;
     }
 }
 
-.container_marioATA{
-    padding: 5px;
-    max-width: 960px;
-    width: 100%;
-    margin: 20px auto;
+.container_historiaCarrusel{
+    @include carrusel(960px,100%,20px auto, 5px);
 }
 
 

@@ -5,6 +5,7 @@
 
 header {
   position: fixed;
+  z-index: 2;
   width: 100%;
   top: 0;
   left: 0; }
@@ -72,6 +73,7 @@ body {
 
 footer {
   background-color: #fe0016;
+  width: 100%;
   color: white;
   align-items: center; }
   footer .figure-caption {
@@ -96,8 +98,8 @@ footer {
 
 .creacion_box {
   background-color: white;
-  text-align: center;
   max-width: 70%;
+  text-align: center;
   border-radius: 5%;
   padding: 5%; }
   .creacion_box .Creacion_titulo {
@@ -106,18 +108,47 @@ footer {
   .creacion_box .creador_img {
     width: 100%; }
 
-.container_video .titulo_video {
+.container_historiaVideo .titulo_historiaVideo {
   font-family: fantasy;
   font-size: 300%; }
 
-.container_video .video {
+.container_historiaVideo .historiaVideo {
   width: 80%; }
 
-.container_marioATA {
-  padding: 5px;
+.container_historiaCarrusel {
   max-width: 960px;
   width: 100%;
-  margin: 20px auto; }
+  margin: 20px auto;
+  padding: 5px; }
+
+.containerMario1985 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .containerMario1985 .info_marioATA {
+    width: 40%;
+    height: 315px;
+    float: left; }
+  .containerMario1985 .videoMarioATA {
+    width: 60%;
+    height: 315px;
+    float: right; }
+
+.articulo2_marioata {
+  background-color: white;
+  max-width: 90%;
+  text-align: justify;
+  border-radius: 5%;
+  padding: 5%; }
+
+.button_marioATA {
+  border-radius: 20px;
+  border-color: lightgray;
+  padding: 10px;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  color: black; }
 
 .btn_mantenimiento {
   border-radius: 20px;
@@ -128,3 +159,34 @@ footer {
   font-weight: bold;
   color: black;
   font-display: none; }
+
+.personajes_carrusel {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 5px; }
+
+.container_carrusel_personaje {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container_carrusel_personaje .container_img-personaje {
+    float: left;
+    max-width: 50%;
+    padding: 2%; }
+  .container_carrusel_personaje .texto_personaje {
+    float: right;
+    max-width: 50%; }
+
+.video_pelicula {
+  width: 50%; }
+
+.resumen_pelicula {
+  background-color: white;
+  max-width: 90%;
+  text-align: justify;
+  border-radius: 5%;
+  padding: 5%; }
+
+.container-noticias .container-noticia {
+  width: 50%;
+  height: 100%; }

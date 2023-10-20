@@ -45,3 +45,18 @@
     padding: $padding;
     border-color: $border-color;
 }
+
+@mixin article($background-color,$width,$text-align,$border-radius,$padding){
+    background-color: $background-color;
+    max-width: $width;
+    text-align: $text-align;
+    border-radius: $border-radius;
+    padding: $padding;
+}
+
+@mixin carrusel($max-width,$width,$margin,$padding){
+    max-width: $max-width;
+    width: $width;
+    margin: $margin;
+    padding: $padding;
+}

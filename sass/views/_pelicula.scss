@@ -1,0 +1,7 @@
+.video_pelicula{
+    @include sizes(50%,null)
+}
+
+.resumen_pelicula{
+    @include article ($backgroud-color-creacionbox,90%,justify,5%,5%);
+}

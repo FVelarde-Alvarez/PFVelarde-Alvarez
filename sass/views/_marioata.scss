@@ -1,0 +1,19 @@
+.containerMario1985{
+    @include flex(null,space-between,center);
+    .info_marioATA{
+        @include sizes(40%, 315px);
+        float: left;
+    }
+    .videoMarioATA{
+        @include sizes(60%, 315px);
+        float: right;
+    }
+}
+
+.articulo2_marioata{
+    @include article ($backgroud-color-creacionbox, 90%, justify, 5%,5%);
+}
+
+.button_marioATA{
+    @include btn(20px, lightgray, 10px, white, large, bold, black);
+}
