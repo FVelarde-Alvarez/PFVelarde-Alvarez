@@ -38,7 +38,8 @@ header {
         font-weight: bold;
         color: white; }
         header nav .container-fluid .boton_menu:hover {
-          background-color: #fe0016; }
+          background-color: #fe0016;
+          transform: scale(1.2); }
 
 .clearfix {
   clear: both; }
@@ -46,7 +47,7 @@ header {
 body {
   background-color: yellow;
   /*falta agregar imagen fondo*/
-  padding: 90px 20px 0; }
+  padding: 90px 0px 0px; }
   body .container .container1 {
     display: grid;
     grid-template-columns: auto auto;
@@ -70,6 +71,8 @@ body {
     font-weight: bold;
     color: black;
     font-display: none; }
+    body .btn_conoce_mario:hover {
+      transform: scale(1.2); }
 
 footer {
   background-color: #fe0016;
@@ -92,9 +95,10 @@ footer {
 
 .container_historia {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 90%;
   grid-template-rows: 100% 100%;
-  align-items: center; }
+  align-items: center;
+  margin-left: 20px; }
 
 .creacion_box {
   background-color: white;
@@ -122,17 +126,21 @@ footer {
   padding: 5px; }
 
 .containerMario1985 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .containerMario1985 .info_marioATA {
-    width: 40%;
-    height: 315px;
-    float: left; }
-  .containerMario1985 .videoMarioATA {
-    width: 60%;
-    height: 315px;
-    float: right; }
+  margin: 0 -5px; }
+  .containerMario1985:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .containerMario1985 .column_marioATA {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    margin-bottom: 10px; }
+    @media screen and (max-width: 600px) {
+      .containerMario1985 .column_marioATA {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px; } }
 
 .articulo2_marioata {
   background-color: white;
@@ -149,6 +157,8 @@ footer {
   font-size: large;
   font-weight: bold;
   color: black; }
+  .button_marioATA:hover {
+    transform: scale(1.2); }
 
 .btn_mantenimiento {
   border-radius: 20px;
@@ -158,7 +168,10 @@ footer {
   font-size: large;
   font-weight: bold;
   color: black;
+  margin-left: 30px;
   font-display: none; }
+  .btn_mantenimiento:hover {
+    transform: scale(1.2); }
 
 .personajes_carrusel {
   max-width: 90%;
@@ -187,6 +200,36 @@ footer {
   border-radius: 5%;
   padding: 5%; }
 
-.container-noticias .container-noticia {
-  width: 50%;
-  height: 100%; }
+.row_noticias {
+  margin: 0 -5px; }
+  .row_noticias:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row_noticias .column_noticias {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 10px; }
+    @media screen and (max-width: 600px) {
+      .row_noticias .column_noticias {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px; } }
+
+.card_noticias {
+  background-color: darkgrey;
+  text-align: center;
+  border-radius: 5%;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.imagen_noticia1 {
+  width: 90%; }
+
+.article_noticia1 {
+  background-color: white;
+  max-width: 90%;
+  border-radius: 5px;
+  padding: 5%;
+  margin-left: 5%; }

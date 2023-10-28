@@ -1,0 +1,7 @@
+.imagen_noticia1{
+    width: 90%;
+}
+.article_noticia1{
+    @include article($backgroud-color-creacionbox,90%,null,5px,5%);
+    margin-left:5%;
+}

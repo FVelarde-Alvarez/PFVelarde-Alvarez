@@ -60,3 +60,11 @@
     margin: $margin;
     padding: $padding;
 }
+
+@mixin mainImage($medidaHorizontal,$medidaVertical){
+    width: 100%;
+    height: 65%;
+    display: flex;
+    background-position: $medidaHorizontal,$medidaVertical;
+    background-size: cover;
+}

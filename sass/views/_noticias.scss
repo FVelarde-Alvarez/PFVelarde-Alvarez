@@ -1,6 +1,25 @@
-.container-noticias{
-    .container-noticia{
-        width: 50%;
-        height: 100%;
+.row_noticias{
+    margin: 0 -5px;
+    &:after{
+        content: "";
+        display: table;
+        clear: both;
     }
+
+    .column_noticias{
+        float: left;
+        width: 50%;
+        padding:0 10px;
+        margin-bottom: 10px;
+        @media screen and (max-width:600px){
+            width: 100%;
+            display: block;
+            margin-bottom: 20px; 
+        }
+    }
+}
+
+.card_noticias {
+    @include article (darkgrey,null,center,5%,16px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

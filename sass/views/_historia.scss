@@ -1,5 +1,6 @@
 .container_historia{
-    @include grid(auto auto, 100% 100%, center);
+    @include grid(90%, 100% 100%, center);
+    margin-left: 20px;
 }
 //falta declarar el p lead
 

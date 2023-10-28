@@ -38,6 +38,7 @@ header{
                 @include btn(15px, white, 10px, black, large, bold, white );
                 &:hover{
                     background-color: #fe0016;
+                    transform: scale(1.2);
                 }
             } 
         }
@@ -50,7 +51,7 @@ header{
 
 body{
     background-color: $backgroud-color-body;/*falta agregar imagen fondo*/
-    padding: 90px 20px 0;
+    padding: 90px 0px 0px;
     
     .container{
         .container1{
@@ -72,6 +73,9 @@ body{
     .btn_conoce_mario{
         @include btn(20px, lightgray, 10px, white, large, bold, black);
         font-display: none;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
 
@@ -79,7 +83,7 @@ footer{
     background-color: $backgroud-color-header;
     width: 100%;
     @include footer(white,null,center,null);
-    
+
     .figure-caption{
         @include footer(white,larger,center,0%);
     }

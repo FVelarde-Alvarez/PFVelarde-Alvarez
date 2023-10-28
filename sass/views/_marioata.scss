@@ -1,12 +1,20 @@
 .containerMario1985{
-    @include flex(null,space-between,center);
-    .info_marioATA{
-        @include sizes(40%, 315px);
-        float: left;
+    margin: 0 -5px;
+    &:after{
+        content: "";
+        display: table;
+        clear: both;
     }
-    .videoMarioATA{
-        @include sizes(60%, 315px);
-        float: right;
+    .column_marioATA{
+    float: left;
+    width: 50%;
+    padding:0 20px;
+    margin-bottom: 10px;
+    @media screen and (max-width:600px){
+            width: 100%;
+            display: block;
+            margin-bottom: 20px; 
+        }
     }
 }
 
@@ -16,4 +24,7 @@
 
 .button_marioATA{
     @include btn(20px, lightgray, 10px, white, large, bold, black);
+    &:hover{
+        transform: scale(1.2);
+    }
 }
