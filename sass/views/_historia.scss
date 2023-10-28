@@ -2,7 +2,6 @@
     @include grid(90%, 100% 100%, center);
     margin-left: 20px;
 }
-//falta declarar el p lead
 
 .creacion_box{
     @include article ($backgroud-color-creacionbox, 70%, center, 5%,5%);
